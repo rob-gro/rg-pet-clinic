@@ -1,4 +1,4 @@
-package com.robgro.rgpetclinic;
+package rgpetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
