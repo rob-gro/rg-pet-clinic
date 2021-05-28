@@ -2,9 +2,11 @@ package com.robgro.rgpetclinic.services.map;
 
 import com.robgro.rgpetclinic.model.Owner;
 import com.robgro.rgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
