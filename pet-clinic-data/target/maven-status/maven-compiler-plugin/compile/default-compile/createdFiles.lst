@@ -1,0 +1,5 @@
+com\robgro\rgpetclinic\model\Vet.class
+com\robgro\rgpetclinic\model\Owner.class
+com\robgro\rgpetclinic\model\Person.class
+com\robgro\rgpetclinic\model\PetType.class
+com\robgro\rgpetclinic\model\Pet.class
