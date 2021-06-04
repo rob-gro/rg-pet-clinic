@@ -1,5 +1,14 @@
 C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\model\Owner.java
+C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\services\OwnerService.java
+C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\services\map\AbstractMapService.java
 C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\model\PetType.java
 C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\model\Vet.java
+C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\services\PetService.java
 C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\model\Pet.java
+C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\model\BaseEntity.java
+C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\services\VetService.java
 C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\model\Person.java
+C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\services\map\VetServiceMap.java
+C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\services\map\PetServiceMap.java
+C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\services\CrudService.java
+C:\_newJ\rg-pet-clinic\pet-clinic-data\src\main\java\com\robgro\rgpetclinic\services\map\OwnerServiceMap.java

@@ -1,5 +1,14 @@
 com\robgro\rgpetclinic\model\Vet.class
-com\robgro\rgpetclinic\model\Owner.class
+com\robgro\rgpetclinic\services\PetService.class
+com\robgro\rgpetclinic\services\CrudService.class
+com\robgro\rgpetclinic\services\map\VetServiceMap.class
 com\robgro\rgpetclinic\model\Person.class
+com\robgro\rgpetclinic\services\VetService.class
+com\robgro\rgpetclinic\services\map\PetServiceMap.class
+com\robgro\rgpetclinic\model\BaseEntity.class
 com\robgro\rgpetclinic\model\PetType.class
+com\robgro\rgpetclinic\services\OwnerService.class
+com\robgro\rgpetclinic\model\Owner.class
+com\robgro\rgpetclinic\services\map\OwnerServiceMap.class
+com\robgro\rgpetclinic\services\map\AbstractMapService.class
 com\robgro\rgpetclinic\model\Pet.class
