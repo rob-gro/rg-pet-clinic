@@ -1,8 +1,10 @@
 com\robgro\rgpetclinic\model\Vet.class
 com\robgro\rgpetclinic\repositories\SpecializeRepository.class
+com\robgro\rgpetclinic\model\PetType$PetTypeBuilder.class
 com\robgro\rgpetclinic\services\PetService.class
 com\robgro\rgpetclinic\repositories\VetRepository.class
 com\robgro\rgpetclinic\model\Specialize.class
+com\robgro\rgpetclinic\model\Specialize$SpecializeBuilder.class
 com\robgro\rgpetclinic\services\springdatajpa\VetSDJpaService.class
 com\robgro\rgpetclinic\model\Person.class
 com\robgro\rgpetclinic\services\springdatajpa\PetSDJpaService.class
@@ -10,6 +12,8 @@ com\robgro\rgpetclinic\services\VetService.class
 com\robgro\rgpetclinic\services\springdatajpa\PetTypeSDJpaService.class
 com\robgro\rgpetclinic\repositories\PetRepository.class
 com\robgro\rgpetclinic\model\BaseEntity.class
+com\robgro\rgpetclinic\model\Pet$PetBuilder.class
+com\robgro\rgpetclinic\model\Owner$OwnerBuilder.class
 com\robgro\rgpetclinic\services\map\SpecializeMapService.class
 com\robgro\rgpetclinic\services\OwnerService.class
 com\robgro\rgpetclinic\repositories\VisitRepository.class
@@ -17,12 +21,14 @@ com\robgro\rgpetclinic\services\springdatajpa\SpecializeSDJpaService.class
 com\robgro\rgpetclinic\services\CrudService.class
 com\robgro\rgpetclinic\services\map\PetTypeMapService.class
 com\robgro\rgpetclinic\services\SpecializeService.class
+com\robgro\rgpetclinic\model\Vet$VetBuilder.class
 com\robgro\rgpetclinic\services\map\OwnerMapService.class
 com\robgro\rgpetclinic\services\PetTypeService.class
 com\robgro\rgpetclinic\services\map\VisitMapService.class
 com\robgro\rgpetclinic\model\PetType.class
 com\robgro\rgpetclinic\repositories\OwnerRepository.class
 com\robgro\rgpetclinic\services\springdatajpa\OwnerSDJpaService.class
+com\robgro\rgpetclinic\model\Visit$VisitBuilder.class
 com\robgro\rgpetclinic\services\VisitService.class
 com\robgro\rgpetclinic\services\springdatajpa\VisitSDJpaService.class
 com\robgro\rgpetclinic\model\Owner.class
