@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.robgro.rgpetclinic.RgPetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.382 s - in com.robgro.rgpetclinic.RgPetClinicApplicationTests
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.807 s <<< FAILURE! - in com.robgro.rgpetclinic.RgPetClinicApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: java.lang.NullPointerException
+
