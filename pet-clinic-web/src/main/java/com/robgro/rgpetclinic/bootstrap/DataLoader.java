@@ -1,10 +1,7 @@
 package com.robgro.rgpetclinic.bootstrap;
 
 import com.robgro.rgpetclinic.model.*;
-import com.robgro.rgpetclinic.services.OwnerService;
-import com.robgro.rgpetclinic.services.PetTypeService;
-import com.robgro.rgpetclinic.services.SpecializeService;
-import com.robgro.rgpetclinic.services.VetService;
+import com.robgro.rgpetclinic.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -17,20 +14,20 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecializeService specializeService;
+    private final VisitService visitService;
 
     public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService,
-                      SpecializeService specializeService) {
+                      SpecializeService specializeService, VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specializeService = specializeService;
+        this.visitService = visitService;
     }
 
     @Override
     public void run(String... args) throws Exception {
-
         int count = petTypeService.findAll().size();
-
         if (count == 0) {
             loadData();
         }
@@ -84,8 +81,14 @@ public class DataLoader implements CommandLineRunner {
         fionasPet.setPetType(saveCatPetType);
         fionasPet.setOwner(owner2);
         fionasPet.setBirthDate(LocalDate.now());
-        fionasPet.setName("just cat");
+        fionasPet.setName("Just Cat");
         owner2.getPets().add(fionasPet);
+
+        Visit catVisit = new Visit();
+        catVisit.setPet(fionasPet);
+        catVisit.setDate(LocalDate.now());
+        catVisit.setDescription("Sneezy Kitty");
+        visitService.save(catVisit);
 
         ownerService.save(owner2);
 
