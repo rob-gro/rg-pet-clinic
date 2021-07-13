@@ -20,6 +20,7 @@
     <!--/*@thymesVar id="selections" type="com.robgro.rgpetclinic.model.Owner"*/-->
     <tr th:each="owner : ${selections}">
         <td>
+            <!--/*@thymesVar id="lastName" type="com.robgro.rgpetclinic.model.Owner"*/-->
             <a th:href="@{/owners/__${owner.id}__}" th:text="${owner.firstName + ' ' + owner.lastName}"/></a>
         </td>
         <td th:text="${owner.address}"/>
