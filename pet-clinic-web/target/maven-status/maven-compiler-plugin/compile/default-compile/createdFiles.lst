@@ -1,6 +1,8 @@
+com\robgro\rgpetclinic\controllers\VisitController.class
 com\robgro\rgpetclinic\RgPetClinicApplication.class
 com\robgro\rgpetclinic\bootstrap\DataLoader.class
 com\robgro\rgpetclinic\controllers\IndexController.class
 com\robgro\rgpetclinic\controllers\OwnerController.class
+com\robgro\rgpetclinic\controllers\PetController.class
 com\robgro\rgpetclinic\controllers\VetController.class
 com\robgro\rgpetclinic\formatters\PetTypeFormatter.class

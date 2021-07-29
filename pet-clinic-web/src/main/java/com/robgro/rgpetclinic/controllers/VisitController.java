@@ -2,8 +2,6 @@ package com.robgro.rgpetclinic.controllers;
 
 import com.robgro.rgpetclinic.model.Pet;
 import com.robgro.rgpetclinic.model.Visit;
-import com.robgro.rgpetclinic.repositories.PetRepository;
-import com.robgro.rgpetclinic.repositories.VisitRepository;
 import com.robgro.rgpetclinic.services.PetService;
 import com.robgro.rgpetclinic.services.VisitService;
 import org.springframework.stereotype.Controller;
